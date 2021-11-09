@@ -37,7 +37,7 @@ function gotPoses(results) {
 }
 
 function draw() {
-    background = "#ADD8E6";
+    background("#ADD8E6");
     document.getElementById("square_side").innerHTML="Width and height of the square is "+difference+" px";
     fill("#F90093");
     stroke("#F90093");
